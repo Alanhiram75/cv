@@ -32,7 +32,7 @@ export const translations = {
     act_cia_desc: "Participación activa en actividades académicas de IA.",
     langs_title: "Idiomas",
     lang_es: "Español — nativo",
-    lang_en: "Inglés — A1 técnico",
+    lang_en: "Inglés — A2 técnico",
     contact_title: "Contacto",
     links_title: "Perfiles",
     link_credly_sub: "Certificaciones",
