@@ -72,7 +72,7 @@ export const translations = {
     act_cia_desc: "Active participation in AI academic activities.",
     langs_title: "Languages",
     lang_es: "Spanish — native",
-    lang_en: "English — A1 technical",
+    lang_en: "English — A2 technical",
     contact_title: "Contact",
     links_title: "Profiles",
     link_credly_sub: "Certifications",
