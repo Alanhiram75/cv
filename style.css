@@ -268,10 +268,12 @@ main {
 /* ── CERTS ── */
 .cell-certs {
     grid-column: span 3;
-    display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 .cert-item {
-    display: flex; align-items: center; gap: 1rem;
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: flex-start; gap: 1rem;
     text-decoration: none; color: var(--text-1);
     padding: 1.2rem; border-radius: 14px;
     background: rgba(255,255,255,0.02);
@@ -292,6 +294,7 @@ main {
 }
 .cert-name {
     font-size: 0.82rem; font-weight: 600; line-height: 1.4;
+    text-align: left;
 }
 
 /* ── LANGS ── */
