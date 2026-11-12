@@ -138,7 +138,6 @@ main {
     font-size: 1.1rem; font-weight: 500; color: var(--accent);
     margin-bottom: 0.45rem;
 }
-.hero-sub { color: var(--text-2); font-size: 0.9rem; }
 .profile-photo {
     width: 112px; height: 112px; border-radius: 50%; flex-shrink: 0;
     object-fit: cover;
