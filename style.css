@@ -111,9 +111,12 @@ main {
 .cell-profile { grid-column: span 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.2rem; }
 .cell-about   { grid-column: span 3; }
 .cell-skill   { grid-column: span 1; }
-.cell-langs   { grid-column: span 1; }
-.cell-contact { grid-column: span 2; }
+.cell-info    { grid-column: span 3; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1rem 1.4rem; }
 .cell-links   { grid-column: span 3; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.info-group   { display: flex; align-items: center; gap: 0.75rem; }
+.cell-info .cell-header { margin-bottom: 0; }
+.cell-info .cell-header h3 { font-size: 0.85rem; white-space: nowrap; }
+.cell-info .contact-row { gap: 1rem; }
 
 .section-title {
     grid-column: span 3;
@@ -377,9 +380,8 @@ footer {
     .cell-hero    { grid-column: span 2; }
     .cell-profile { grid-column: span 2; flex-direction: row; justify-content: flex-start; }
     .cell-about   { grid-column: span 2; }
+    .cell-info    { grid-column: span 2; flex-wrap: wrap; justify-content: flex-start; }
     .section-title { grid-column: span 2; }
-    .cell-contact { grid-column: span 2; }
-    .cell-langs   { grid-column: span 2; }
     .cell-certs   { grid-column: span 2; }
     .cell-links   { grid-column: span 2; grid-template-columns: repeat(2, 1fr); }
 }
@@ -388,12 +390,14 @@ footer {
     main { padding: 0 1rem; margin-top: 4.5rem; }
     .bento { grid-template-columns: 1fr; gap: 0.85rem; }
     .cell { padding: 1.3rem; }
-    .cell-hero, .cell-profile, .cell-about,
-    .section-title, .cell-contact, .cell-langs, .cell-certs,
+    .cell-hero, .cell-profile, .cell-about, .cell-info,
+    .section-title, .cell-certs,
     .cell-links { grid-column: span 1; }
     .cell-links { grid-template-columns: 1fr; }
     .cell-certs { grid-template-columns: 1fr; }
     .cell-profile { flex-direction: column; align-items: center; text-align: center; }
+    .cell-info { flex-direction: column; align-items: flex-start; gap: 0.9rem; }
+    .info-group { flex-wrap: wrap; }
     .nav-links { display: none; }
     nav { padding: 0.7rem 1rem; }
     .contact-row { flex-direction: column; gap: 1rem; align-items: flex-start; }
